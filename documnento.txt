@@ -1,0 +1,23 @@
+L’idea è sviluppare un’app mobile dedicata alla gestione e organizzazione degli appuntamenti per un’azienda idraulica. L’obiettivo principale dell’app è migliorare la comunicazione tra l’ufficio e i dipendenti che lavorano sul campo, rendendo più semplice, veloce ed efficiente la gestione degli interventi.
+Attraverso l’app, l’azienda potrà inserire e organizzare tutti gli appuntamenti dei clienti in un calendario digitale. I dipendenti riceveranno direttamente sul proprio telefono le informazioni relative agli interventi programmati, come indirizzo, orario, tipo di lavoro da svolgere ed eventuali note aggiuntive.
+In questo modo si riducono errori di comunicazione, telefonate inutili e problemi organizzativi. Ogni idraulico potrà vedere la propria agenda giornaliera, confermare l’appuntamento e aggiornare lo stato dell’intervento in tempo reale.
+L’app permetterà anche di migliorare la gestione interna dell’azienda, rendendo più chiaro il carico di lavoro dei dipendenti e facilitando la pianificazione degli interventi. L’obiettivo finale è aumentare l’efficienza dell’azienda, risparmiare tempo nella gestione degli appuntamenti e garantire un servizio più organizzato e professionale ai clienti.
+Per rendere l’app ancora più completa e utile per l’azienda e per i tecnici sul campo, verranno integrate diverse funzionalità aggiuntive:
+Notifiche automatiche: i dipendenti riceveranno notifiche quando viene assegnato un nuovo intervento o quando cambia l’orario di un appuntamento.
+Navigazione verso il cliente: tramite un pulsante sarà possibile aprire direttamente il percorso verso l’indirizzo del cliente utilizzando applicazioni di navigazione come Google Maps.
+Aggiornamento dello stato dell’intervento: il tecnico potrà indicare lo stato del lavoro, ad esempio “in viaggio”, “in lavorazione” o “lavoro completato”.
+Caricamento foto: sarà possibile scattare e salvare foto prima e dopo l’intervento per documentare il lavoro svolto.
+Firma del cliente: al termine dell’intervento il cliente potrà firmare direttamente sul telefono per confermare il lavoro eseguito.
+Storico degli interventi: l’azienda potrà consultare facilmente tutti gli interventi effettuati per ogni cliente.
+Chat interna: l’app includerà una funzione di messaggistica per comunicare rapidamente tra ufficio e tecnici.
+Creazione di preventivi veloci: i tecnici potranno creare rapidamente piccoli preventivi direttamente dall’app durante il sopralluogo o l’intervento.
+Segnalazione cliente assente: nel caso in cui il tecnico arrivi all’appuntamento e il cliente non sia presente in casa, potrà segnalarlo direttamente tramite l’app con un semplice pulsante. L’ufficio riceverà immediatamente la comunicazione e potrà contattare il cliente o riprogrammare l’intervento.
+Per migliorare ulteriormente l’organizzazione del lavoro, l’app sarà affiancata anche da un pannello gestionale utilizzabile da computer, pensato per chi lavora in ufficio e gestisce le chiamate dei clienti. Attraverso questo sistema sarà possibile:
+Pannello di controllo da computer (Dashboard ufficio): l’ufficio potrà vedere tutti gli appuntamenti della giornata, assegnare lavori ai dipendenti, modificare gli orari e avere una visione completa delle attività.
+Creazione rapida degli appuntamenti durante le chiamate: quando un cliente chiama, l’operatore potrà inserire rapidamente nome, telefono, indirizzo, tipo di problema e assegnare subito il lavoro al tecnico disponibile oppure organizzarlo nei giorni successivi.
+Visualizzazione della posizione dei tecnici su mappa: l’ufficio potrà vedere su una mappa la posizione dei tecnici per capire chi è più vicino a un intervento urgente, utilizzando servizi come Google Maps.
+Gestione degli interventi urgenti: gli interventi potranno essere contrassegnati come urgenti, inviando una notifica immediata al tecnico e dando priorità a quel lavoro.
+Archivio clienti: l’app creerà automaticamente una scheda cliente con dati di contatto, indirizzo e storico degli interventi effettuati.
+Report giornaliero delle attività: a fine giornata sarà possibile visualizzare un riepilogo dei lavori svolti, degli interventi completati e di quelli ancora in sospeso.
+Pianificazione settimanale: l’ufficio potrà organizzare e visualizzare gli interventi non solo della giornata, ma anche dell’intera settimana.
+Questa applicazione ha lo scopo di digitalizzare e semplificare l’organizzazione del lavoro quotidiano di un’azienda idraulica, migliorando la comunicazione interna tra ufficio e tecnici e rendendo la gestione degli interventi più efficiente, moderna e professionale.
