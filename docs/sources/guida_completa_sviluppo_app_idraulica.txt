@@ -1,0 +1,117 @@
+--- Pagina 1 ---
+Guida Completa allo Sviluppo – App Gestione
+ Interventi Azienda Idraulica
+Questo documento spiega passo per passo come sviluppare un'applicazione mobile per la gestione
+degli interventi di un'azienda idraulica. L'obiettivo è creare un sistema che permetta all'ufficio di
+organizzare gli appuntamenti e ai tecnici di ricevere e aggiornare gli interventi direttamente dal
+telefono.
+1. Analisi del progetto
+
+Definire chi utilizzerà il sistema: ufficio e tecnici.
+
+Stabilire tutte le funzionalità principali dell'app.
+
+Creare uno schema di come l'app funzionerà (flusso delle schermate).
+
+Decidere le tecnologie da usare per app mobile, backend e database.
+2. Progettazione del database
+
+Creare una tabella UTENTI con nome, email, password e ruolo.
+
+Creare una tabella CLIENTI con nome, telefono, indirizzo e note.
+
+Creare una tabella INTERVENTI con cliente, tecnico, data, orario e stato.
+
+Creare una tabella FOTO per salvare immagini prima e dopo il lavoro.
+
+Creare una tabella MESSAGGI per la chat interna.
+
+Creare una tabella PREVENTIVI per eventuali stime dei lavori.
+Tabella
+Contenuto
+Utenti
+id, nome, email, password, ruolo
+Clienti
+id, nome, telefono, indirizzo, note
+Interventi
+id, cliente_id, tecnico_id, data, orario, stato, note
+Foto
+id, intervento_id, url_foto, tipo
+Messaggi
+id, mittente_id, destinatario_id, messaggio, data
+Preventivi
+id, intervento_id, descrizione, prezzo
+3. Sviluppo del Backend (server)
+
+
+--- Pagina 2 ---
+
+Creare il server che gestisce tutti i dati dell'app.
+
+Implementare il sistema di login e autenticazione.
+
+Creare API per gestire clienti.
+
+Creare API per creare e modificare interventi.
+
+Permettere l'assegnazione degli interventi ai tecnici.
+
+Permettere l'aggiornamento dello stato dell'intervento.
+4. Sviluppo dell'App Mobile (per i tecnici)
+
+Creare schermata di login.
+
+Creare schermata con agenda giornaliera degli interventi.
+
+Creare pagina dettaglio intervento con indirizzo e informazioni.
+
+Aggiungere pulsante per aprire navigazione verso il cliente.
+
+Aggiungere pulsanti per aggiornare stato intervento (in viaggio, in lavorazione, completato).
+
+Permettere caricamento foto prima e dopo il lavoro.
+
+Permettere firma del cliente sul telefono.
+
+Permettere segnalazione cliente assente.
+5. Sviluppo Dashboard Web (per l'ufficio)
+
+Creare calendario per visualizzare tutti gli interventi.
+
+Creare sistema per inserire nuovi appuntamenti durante le chiamate.
+
+Permettere assegnazione interventi ai tecnici.
+
+Mostrare storico clienti.
+
+Mostrare riepilogo lavori giornalieri.
+6. Sistema notifiche
+
+Inviare notifica quando viene assegnato un intervento.
+
+Inviare notifica quando cambia l'orario di un appuntamento.
+
+Inviare notifiche per interventi urgenti.
+7. Testing
+
+Testare login e accesso utenti.
+
+
+--- Pagina 3 ---
+
+Testare creazione e assegnazione interventi.
+
+Testare aggiornamento stato intervento.
+
+Testare caricamento foto.
+
+Testare notifiche.
+8. Pubblicazione del sistema
+
+Configurare server online.
+
+Pubblicare il backend.
+
+Pubblicare l'app mobile.
+
+Testare il sistema completo con utenti reali.

@@ -1,0 +1,16 @@
+.venv/
+.local/
+__pycache__/
+*.py[cod]
+.env
+.env.local
+*.sqlite3
+backend/private-media/
+backend/staticfiles/
+.pytest_cache/
+node_modules/
+.next/
+*.tsbuildinfo
+playwright-report/
+test-results/
+coverage/
